@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<button id='one' onclick='hello(this.id)'>Click this</button>
+<br>
+<div id='box'>
+</div>
+<br>
+<!-- <button id='two' onclick='hello(this.id)'>Click this</button> -->
+
+<script>
+
+
+function hello(trenton){
+  if(trenton == 'one') {
+    document.querySelector('#box').innerHTML= "<img src='https://upload.wikimedia.org/wikipedia/en/1/19/Tony_Montana_in_Scarface_%281983%29%2C_portrayed_by_Al_Pacino.jpg'>";
+   }
+    else {
+    document.querySelector('#box').innerHTML= 'goodbye'
+    }
+}
+//function goodbye(){
+ //   document.querySelector('#box').innerHTML= 'goodbye'
+//}
+
+</script>
+
+</body>
+</html>
